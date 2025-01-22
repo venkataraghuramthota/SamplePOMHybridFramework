@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample POM Framework Test Suite">
+    <listeners>
+        <listener class-name="org.example.ExtentReportListener.ExtentReporterTestNG" />
+    </listeners>
+    <test name="Sample POM Framework Test cases">
+        <classes>
+            <class name="org.example.tests.LoginPageTest"/>
+            <class name="org.example.tests.HomePageTest"/>
+            <class name="org.example.tests.LogoutPageTest"/>-
+            <class name="org.example.tests.CheckOutPageTest"/>
+            <class name="org.example.tests.CheckoutInfoTest"/>
+
+        </classes>
+    </test>
+</suite>
